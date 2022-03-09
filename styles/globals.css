@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menu-item {
+    @apply block bg-black font-bold text-sm sm:text-base transition-colors p-5 text-white hover:text-orange-500 focus:text-orange-500 outline-none;
+  }
+}
